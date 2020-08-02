@@ -1,1 +1,3 @@
-This is a the public repository for the [MTBX](https://mbtx.org) website built using [Next.js](https://nextjs.org/) and [GraphCMS](https://graphcms.com)
+# MTBX.org- Your Marketing Toolbox
+
+Built using [Next.js](https://nextjs.org/) and [GraphCMS](https://graphcms.com).

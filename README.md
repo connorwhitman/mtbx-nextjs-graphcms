@@ -1,1 +1,1 @@
-This is a the public repository for the [MTBX](https://mbtx.org) website built using [Next.js](https://nextjs.org/) and [GraphCMS](https://graphcms.com)
+This is a the staging repository for [MTBX](https://mbtx.org)

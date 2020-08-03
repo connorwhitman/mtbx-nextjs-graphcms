@@ -11,7 +11,7 @@ export const FooterWrap = styled.footer`
   letter-spacing: .15em;
   color: #777;
   font-variant: small-caps;
-  font-weight: 300;
+  font-weight: 500;
 
   img {
     display: block;

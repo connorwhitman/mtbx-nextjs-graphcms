@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Footer from '../components/footer'
 
 export default function Home() {
   return (
@@ -12,17 +13,7 @@ export default function Home() {
       <main>
         
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://connorwhitman.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/logo.svg" alt="connorwhitman.com Logo" className={styles.logo} />
-        </a>
-      </footer>
+      
     </div>
   )
 }

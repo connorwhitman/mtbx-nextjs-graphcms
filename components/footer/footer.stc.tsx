@@ -7,6 +7,11 @@ export const FooterWrap = styled.footer`
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  color: #777;
+  font-variant: small-caps;
+  font-weight: 300;
 
   img {
     display: block;

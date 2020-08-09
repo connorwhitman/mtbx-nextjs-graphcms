@@ -1,4 +1,5 @@
 import React from 'react'
+import Countdown from './countdown'
 import { CoverWrap, Tagline } from './ComingSoon.stc'
 
 type ComingSoon = {
@@ -11,9 +12,12 @@ const ComingSoon = ({bg, title, tagline}: ComingSoon) => {
   return (
     <CoverWrap bg={bg}>
       {/* <Logo /> */}
-      <Tagline />
-      {/* <Countdown />
-      <Social /> */}
+      <Tagline>
+        <h1>{title}</h1>
+        <h2>{tagline}</h2>
+      </Tagline>
+      <Countdown timeTillDate="12 01 2020" timeFormat="MM DD YYYY" />
+      {/* <Social /> */}
     </CoverWrap>
   )
 }

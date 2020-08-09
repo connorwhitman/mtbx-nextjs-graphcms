@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled, { ThemeProvider } from 'styled-components'
 
 export const FooterWrap = styled.footer`
   width: 100%;
@@ -8,10 +8,12 @@ export const FooterWrap = styled.footer`
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  letter-spacing: .15em;
-  color: #777;
   font-variant: small-caps;
-  font-weight: 500;
+
+  color: ${props => props.theme.colors.primary || '#79c'};
+  letter-spacing: ${props => props.theme.letterSpacing || '.15em'};
+  font-size: ${props => props.theme.fontSize || '.75em'};
+  font-weight: ${props => props.theme.fontWeight || 200};
 
   img {
     display: block;

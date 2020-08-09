@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <ComingSoon bg="../public/csbg.jpg" />
+        <ComingSoon title="MTBX" tagline="Coming Soon" bg="/csbg.jpg" />
       </main>
       
     </div>

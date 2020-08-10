@@ -6,9 +6,10 @@ type ComingSoon = {
   bg?: string,
   title?: string,
   tagline?: string,
+  timeTillDate?: any,
 }
 
-const ComingSoon = ({bg, title, tagline}: ComingSoon) => {
+const ComingSoon = ({bg, title, tagline, timeTillDate}: ComingSoon) => {
   return (
     <CoverWrap bg={bg}>
       {/* <Logo /> */}
@@ -16,7 +17,7 @@ const ComingSoon = ({bg, title, tagline}: ComingSoon) => {
         <h1>{title}</h1>
         <h2>{tagline}</h2>
       </Tagline>
-      <Countdown timeTillDate="12 01 2020" timeFormat="MM DD YYYY" />
+      <Countdown timeTillDate={timeTillDate} timeFormat="YYYY-MM-DD" />
       {/* <Social /> */}
     </CoverWrap>
   )
